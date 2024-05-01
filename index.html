@@ -17,11 +17,24 @@
 <body>
     <!--navbar-->
     <div class="navbar">
-        <!-- logo -->
-        <span class="logo"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
-        <!-- search bar-->
-        <span class="user"><i class="fa fa-user" aria-hidden="true"></i></span>
+        <div class="top">
+             <!-- logo -->
+             <span class="logo"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+             <!-- search bar-->
+             <div class="search-container">
+                <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+           
+            </div>
+
+            <span class="user"><i class="fa fa-user" aria-hidden="true"></i></span>
+        </div>
+   
+      
         <!--dropdown content-->
+        <div class="vitu">
         <div class="dropdown-1">
             <button>TOTES <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content-1">
@@ -132,6 +145,7 @@
            <a href="#">ABOUT US</a>
            <a href="#">CONTACT</a>
            <a href="#">ADD LOGO</a>
+        </div>
         </div>
     </div>
 </body>
